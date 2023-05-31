@@ -195,7 +195,7 @@ async function shareScreen() {
 
   const seqNumToAbortController: Map<number, AbortController> = new Map();
 
-  const stream = await (navigator.mediaDevices as any).getDisplayMedia({video: true});
+  const stream = await (navigator.mediaDevices as any).getDisplayMedia({video: true, audio: true});
   const mediaRecorder = new MediaStreamRecorder(stream);
   mediaRecorder.mimeType = 'video/mp4';
 
