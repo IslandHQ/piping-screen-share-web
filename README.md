@@ -7,7 +7,7 @@ Screen Share via [Piping Server](https://github.com/nwtgck/piping-server) with E
 ![Piping Screen Share Demo](doc_assets/piping-screen-share-demo.gif)
 
 ## Application
-<https://piping-screen-share.netlify.com>
+<https://piping-screen-share-web.pages.dev/>
 
 ## URL fragment parameters
 

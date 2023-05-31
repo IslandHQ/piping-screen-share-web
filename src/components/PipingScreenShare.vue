@@ -177,7 +177,7 @@ const shareOrView = ref<'share' | 'view'>((() => {
   return typeEither.right;
 })());
 
-const serverUrl = ref<string>(parseHashAsQuery().get('server') ?? 'https://ppng.io');
+const serverUrl = ref<string>(parseHashAsQuery().get('server') ?? 'https://rd5.cc');
 const screenId = ref<string>(parseHashAsQuery().get('screen_id') ?? '');
 const passphrase = ref<string>('');
 const showPassphrase = ref<boolean>(false);
