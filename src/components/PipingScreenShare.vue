@@ -224,7 +224,7 @@ async function shareScreen() {
     seqNum++;
   };
 
-  mediaRecorder.start(1000);
+  mediaRecorder.start(100);
 }
 
 async function viewScreen() {
